@@ -1,0 +1,676 @@
+/*
+=====================================================================
+*   RMG v1.0 Layout Stylesheet
+*   02-02-2020
+===================================================================== 
+*/
+
+
+/*
+===================================================================== 
+*   Default Style
+=====================================================================  
+*/
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #293462;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+	font-size: 16px;
+}
+
+#p_portfolio {
+	line-height: 28px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/*
+===================================================================== 
+*   Links Style
+=====================================================================  
+*/
+a {
+    color: #32407b;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #2e279d;
+    /* text-decoration: none; */
+		outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/*
+===================================================================== 
+*   Navbar
+=====================================================================  
+*/
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+
+	position: relative;
+	height: 420px;
+	min-height: 300px;
+	width: 100%;
+	background: #2e279d url(../assets/images/moon_header.jpg) no-repeat top center;
+	background-size: cover !important;
+	 -webkit-background-size: cover !important;
+	overflow: hidden;
+}
+
+
+.navbar-inverse {
+	padding-bottom: 70px;
+	padding-top: 70px;
+}
+
+.navbar-inverse {
+	background-color: #32407b;
+	border-color: #32407b;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	font-size: 16px;
+	color: #D0D0D0;
+	/* color: white; */
+	/* text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+	letter-spacing: 1px;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	/* color: #FE6845; */
+	/* color: #4F72FF; */
+	color: #FFFFFF;
+	/* text-shadow: 0px 1px 2px rgba(0, 0, 0); */
+	letter-spacing: 1px;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+
+.navbar-inverse .navbar-nav > li > a > b {
+	/* color: #FE6845; */
+	/* color: #4F72FF; */
+	color: #FFFFFF;
+	text-decoration: none;
+	/* text-shadow: 0px 1px 2px rgba(0, 0, 0); */
+	letter-spacing: 1px;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 25px;
+	/* letter-spacing: 2px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); */
+	letter-spacing: 2px;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+	background-color: #5893D4;
+}
+.navbar-inverse .navbar-toggle:focus {
+	border-color: transparent;
+	background-color: #1F3C88;
+}
+
+.progress-bar-theme {
+  background-color: #151965;
+	transform: scale(1.0);
+}
+.progress-bar-theme::after {
+  /* background-color: #151965; */
+	transform: scale(1.3);
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+/*
+===================================================================== 
+*   Helpers
+=====================================================================  
+*/
+.row-helper {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.container-helper {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*
+===================================================================== 
+*   Image - Opacity
+=====================================================================  
+*/
+.image {
+	border-radius: 0.35em;
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+.image.thumb {
+	text-align: center;
+}
+.image.thumb:after {
+	-moz-transition: opacity 0.2s ease-in-out;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+	border-radius: 0.35em;
+	border: solid 3px rgba(21, 25, 101, 0.5);
+	color: #151965;
+	content: 'View';
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: 400;
+	left: 50%;
+	line-height: 2.25em;
+	margin: -1.25em 0 0 -3em;
+	opacity: 0;
+	padding: 0 1.5em;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	top: 50%;
+	white-space: nowrap;
+}
+.image.thumb:hover:after {
+	opacity: 1.0;
+}
+.image img {
+	border-radius: 0.35em;
+	display: block;
+}
+.image.fit {
+	display: block;
+	margin: 0 0 2em 0;
+	width: 100%;
+}
+.image.fit img {
+	width: 100%;
+}
+
+.img-responsive {
+	opacity: 1;
+	display: block;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+  
+/* .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+} */
+  
+.work-item:hover .img-responsive {
+	opacity: 0.25;
+}
+  
+/* .fadein_text:hover .middle {
+	opacity: 1;
+} */
+  
+/* .text {
+	color: #293462;
+	font-size: 36px;
+} */
+
+#img-about {
+	border-radius: 50%;
+	height: 25%;
+	width: 25%;
+	transform: scale(1.0);
+}
+
+#img-about:hover
+{
+	transform: scale(1.3);
+	transition: transform 0.5s ease;
+}
+
+/*
+===================================================================== 
+*   Wrap Sections
+=====================================================================  
+*/
+#profile-pic {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #e7eaf6;
+}
+
+
+#footer {
+	position: relative;
+	height: 500px;
+	min-height: 300px;
+	width: 100%;
+	background: #2e279d url(../assets/images/moon_footer.jpg) no-repeat top center;
+	background-size: cover !important;
+	 -webkit-background-size: cover !important;
+	overflow: hidden;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer p span {
+	opacity: 0.5;
+}
+
+#footer p span:hover
+{
+	opacity: 1.0;
+}
+
+#footer h4 {
+	/* color: #FE6845; */
+	color: #8BBDF2;
+	font-size: 22px;
+	/* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); */
+	letter-spacing: 2px;
+	text-shadow: 2px 2px rgba(12, 11, 11, 0.56);
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+/*
+===================================================================== 
+*   Icons Configuration
+=====================================================================  
+*/
+.glyphicon {
+	font-size: 50px;
+	color: #293462;
+}
+
+#sm-glyphicon {
+	font-size: 20px;
+	color: #293462;
+}
+
+.fa {
+	font-size: 20px;
+	/* color: #846199; */
+	color: #FFFFFF;
+}
+
+.md-size-icon {
+	font-size: 25px;
+	color: #293462;
+	opacity: 0.5;
+	transform: scale(1.0);
+	margin-bottom: 15px;
+}
+
+.md-size-icon:hover
+{
+	transform: scale(1.4);
+	transition: transform 0.5s ease;
+	opacity: 1.0;
+}
+
+.plus-size-icon {
+	font-size: 35px;
+	/* color: #846199; */
+	color: #FFFFFF;
+	opacity: 0.5;
+	transform: scale(1.0);
+}
+
+.plus-size-icon:hover
+{
+	transform: scale(1.4);
+	transition: transform 0.5s ease;
+	opacity: 1.0;
+}
+
+.download .button {
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(#070D59, #1F3C88);
+	background-image: linear-gradient(#070D59, #1F3C88);
+	/* border: 1px solid #CEDDEF;  */
+	border: 1px solid #1F3C88; 
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	font-size: 1em;
+	letter-spacing: 0.5px;
+	padding: 10px 20px; 
+	cursor: pointer;
+	display: block;
+  max-width: 230px;
+	margin: auto;
+	margin-top: 70px;
+}
+
+.download .button:hover {
+	/* background: #5893D4; */
+	background-image: -webkit-linear-gradient(#1F3C88, #5893D4);
+	background-image: linear-gradient(#1F3C88, #5893D4);
+	color: #FFF;
+}
+
+
+/*
+===================================================================== 
+*   Copyright
+=====================================================================  
+*/
+.copyright {
+  margin: 0;
+	padding: 0;
+	/* color: #755588; */
+	color: #FFFFFF;
+	opacity: 0.5;
+ }
+
+.copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.copyright li {
+   display: inline;
+}
+
+.copyright li:before {
+    content: "\2022";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.copyright  li:first-child:before {
+    display: none;
+}
+
+/*
+===================================================================== 
+*   Social Links
+=====================================================================  
+*/
+.social-links {
+   margin: 18px 0 30px -25px;
+   padding: 0;
+   font-size: 30px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+}
+
+social-links li:first-child { margin-left: 0; }
+
+/* Styling an indeterminate progress bar */
+#pbar-title {
+	margin: 0px;
+}
+
+/* Styling the determinate progress element */
+progress[value] {
+	/* Get rid of the default appearance */
+	appearance: none;
+	
+	/* This unfortunately leaves a trail of border behind in Firefox and Opera. We can remove that by setting the border to none. */
+	border: none;
+	
+	/* Add dimensions */
+	width: 100%; height: 20px;
+	
+	/* Although firefox doesn't provide any additional pseudo class to style the progress element container, any style applied here works on the container. */
+		background-color: whiteSmoke;
+		border-radius: 3px;
+		box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+	
+	/* Of all IE, only IE10 supports progress element that too partially. It only allows to change the background-color of the progress value using the 'color' attribute. */
+	color: royalblue;
+	
+	position: relative;
+	margin: 0 0 1.5em; 
+}
+
+/*
+Webkit browsers provide two pseudo classes that can be use to style HTML5 progress element.
+-webkit-progress-bar -> To style the progress element container
+-webkit-progress-value -> To style the progress element value.
+*/
+
+progress[value]::-webkit-progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+	position: relative;
+	
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	border-radius:3px;
+}
+
+@keyframes animate-stripes { 100% { background-position: -100px 0; } }
+
+progress[value]::-webkit-progress-value:after {
+	/* Only webkit/blink browsers understand pseudo elements on pseudo classes. A rare phenomenon! */
+	content: '';
+	position: absolute;
+	
+	width:5px; height:5px;
+	top:7px; right:7px;
+	
+	background-color: white;
+	border-radius: 100%;
+}
+
+/* Firefox provides a single pseudo class to style the progress element value and not for container. -moz-progress-bar */
+
+progress[value]::-moz-progress-bar {
+	/* Gradient background with Stripes */
+	background-image:
+	-moz-linear-gradient( 135deg,
+																									 transparent,
+																									 transparent 33%,
+																									 rgba(0,0,0,.1) 33%,
+																									 rgba(0,0,0,.1) 66%,
+																									 transparent 66%),
+	-moz-linear-gradient( top,
+																											rgba(255, 255, 255, .25),
+																											rgba(0,0,0,.2)),
+	 -moz-linear-gradient( right, #070D59, #1F3C88, #5893D4, #CEDDEF,/* #FFD933, */#F62A66);
+	
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	border-radius:3px;
+}
+
+/* Fallback technique styles */
+.progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+
+	/* Dimensions should be similar to the parent progress element. */
+	width: 100%; height:20px;
+}
+
+.progress-bar span {
+	background-color: royalblue;
+	border-radius: 3px;
+	
+	display: block;
+	text-indent: -9999px;
+}
+
+p[data-value] { 
+
+position: relative; 
+}
+
+/* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
+p[data-value]:after {
+	content: attr(data-value) '%';
+	position: absolute; right:0;
+}
+
+.html5::-webkit-progress-value,
+.css3::-webkit-progress-value,
+.c::-webkit-progress-value,
+.java::-webkit-progress-value,
+.delphi::-webkit-progress-value,
+/* .php::-webkit-progress-value, */
+.javascript::-webkit-progress-value,
+.jquery::-webkit-progress-value,
+.reactjs::-webkit-progress-value,
+.sql::-webkit-progress-value  
+{
+	/* Gradient background with Stripes */
+	background-image:
+	-webkit-linear-gradient( 135deg,
+																									 transparent,
+																									 transparent 33%,
+																									 rgba(0,0,0,.1) 33%,
+																									 rgba(0,0,0,.1) 66%,
+																									 transparent 66%),
+	-webkit-linear-gradient( top,
+																											rgba(255, 255, 255, .25),
+																											rgba(0,0,0,.2)),
+	/* -webkit-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
+	-webkit-linear-gradient( right, #070D59, #1F3C88, #5893D4, #CEDDEF/*, #FFD933, #F62A66*/);
+}
+
+.node-js::-webkit-progress-value 
+{
+	/* Gradient background with Stripes */
+	background-image:
+	-webkit-linear-gradient( 135deg,
+																									 transparent,
+																									 transparent 33%,
+																									 rgba(0,0,0,.1) 33%,
+																									 rgba(0,0,0,.1) 66%,
+																									 transparent 66%),
+	-webkit-linear-gradient( top,
+																											rgba(255, 255, 255, .25),
+																											rgba(0,0,0,.2)),
+	/* -webkit-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
+	-webkit-linear-gradient( right, #1F3C88, #5893D4,#CEDDEF);
+}
+
+.php::-webkit-progress-value 
+{
+	/* Gradient background with Stripes */
+	background-image:
+	-webkit-linear-gradient( 135deg,
+																									 transparent,
+																									 transparent 33%,
+																									 rgba(0,0,0,.1) 33%,
+																									 rgba(0,0,0,.1) 66%,
+																									 transparent 66%),
+	-webkit-linear-gradient( top,
+																											rgba(255, 255, 255, .25),
+																											rgba(0,0,0,.2)),
+	/* -webkit-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
+	-webkit-linear-gradient( right, #5893D4, #CEDDEF);
+}
+
+/* Similarly, for Mozillaa. */
+
+.html5::-webkit-progress-value,
+.css3::-webkit-progress-value,
+.c::-webkit-progress-value,
+.java::-webkit-progress-value,
+.delphi::-webkit-progress-value,
+.reactjs::-webkit-progress-value,
+.javascript::-webkit-progress-value,
+.jquery::-webkit-progress-value,
+.node-js::-webkit-progress-value,
+.sql::-webkit-progress-value    
+{
+	/* Gradient background with Stripes */
+	background-image:
+	-moz-linear-gradient( 135deg,
+																									 transparent,
+																									 transparent 33%,
+																									 rgba(0,0,0,.1) 33%,
+																									 rgba(0,0,0,.1) 66%,
+																									 transparent 66%),
+	-moz-linear-gradient( top,
+																											rgba(255, 255, 255, .25),
+																											rgba(0,0,0,.2)),
+	/* -moz-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
+	-moz-linear-gradient( right, #070D59, #1F3C88, #5893D4, #CEDDEF,/* #FFD933, #F62A66*/);
+}
+/* THE END */
