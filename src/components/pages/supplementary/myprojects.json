@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "headtitle":   "Class Activities",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftpreclassdrill.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftpreclassdrill.github.io",
+    "image":       "./assets/images/work001.png",
+    "description": "On this webpage, you can select any button and understand how a computer program works."
+  },
+  {
+    "id": 2,
+    "headtitle":   "Password Generator",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftpasswordgenerator.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftpasswordgenerator.github.io",
+    "image":       "./assets/images/work002.png",
+    "description": "On this webpage, you can generate a random password based on user-selected criteria."
+  },
+  {
+    "id": 3,
+    "headtitle":   "Day Planner",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftdayplanner.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftdayplanner.github.io",
+    "image":       "./assets/images/work003.png",
+    "description": "On this webpage, you will be able to create, customize, and delete each one of your daily events."
+  },
+  {
+    "id": 4,
+    "headtitle":   "Code Quiz Challenge",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftcodequiz.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftcodequiz.github.io",
+    "image":       "./assets/images/work004.png",
+    "description": "On this webpage, you will be challenged to answer all the questions in 1 minute."
+  },
+  {
+    "id": 5,
+    "headtitle":   "Geo Trivia",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftgroupprojectgeotrivia.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftgroupprojectgeotrivia.github.io",
+    "image":       "./assets/images/work005.png",
+    "description": "On this webpage, you will be challenged to answer geography questions settle by API requests."
+  },
+  {
+    "id": 6,
+    "headtitle":   "Weather Dashboard",
+    "href_view":   "https://rodrigomgimenes.github.io/uoftweatherdashboard.github.io/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftweatherdashboard.github.io",
+    "image":       "./assets/images/work006.png",
+    "description": "On this webpage, you can search for a specific location or click on the city buttons to receive the respective forecast."
+  },
+  {
+    "id": 7,
+    "headtitle":   "Eat a Burger",
+    "href_view":   "https://intense-oasis-22538.herokuapp.com/",
+    "href_code":   "https://github.com/rodrigomgimenes/uofteataburger.github.io",
+    "image":       "./assets/images/work007.png",
+    "description": "On this webpage, you can write any burger you would like to have, and after finished eating you can delete it from your database."
+  },
+  {
+    "id": 8,
+    "headtitle":   "One Sound - a Spotify App",
+    "href_view":   "https://stark-woodland-75959.herokuapp.com/",
+    "href_code":   "https://github.com/rodrigomgimenes/uoftgroupprojectopensound.github.io",
+    "image":       "./assets/images/work008.png",
+    "description": "On this webpage, you can build your personalized music library and listen to your favorite songs (as long as you have a <i>Spotify Premium Account</i>)."
+  }
+]
