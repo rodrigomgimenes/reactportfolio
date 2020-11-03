@@ -576,14 +576,14 @@ progress[value]::-moz-progress-bar {
 }
 
 p[data-value] { 
-
-position: relative; 
+	position: relative; 
 }
 
 /* The percentage will automatically fall in place as soon as we make the width fluid. Now making widths fluid. */
 p[data-value]:after {
-	content: attr(data-value) '%';
-	position: absolute; right:0;
+	/* content: attr(data-value) '%'; */
+	position: absolute; 
+	right:0;
 }
 
 .html5::-webkit-progress-value,
@@ -591,9 +591,10 @@ p[data-value]:after {
 .c::-webkit-progress-value,
 .java::-webkit-progress-value,
 .delphi::-webkit-progress-value,
-/* .php::-webkit-progress-value, */
+.php::-webkit-progress-value,
 .javascript::-webkit-progress-value,
 .jquery::-webkit-progress-value,
+.node-js::-webkit-progress-value, 
 .reactjs::-webkit-progress-value,
 .sql::-webkit-progress-value  
 {
@@ -612,40 +613,6 @@ p[data-value]:after {
 	-webkit-linear-gradient( right, #070D59, #1F3C88, #5893D4, #CEDDEF/*, #FFD933, #F62A66*/);
 }
 
-.node-js::-webkit-progress-value 
-{
-	/* Gradient background with Stripes */
-	background-image:
-	-webkit-linear-gradient( 135deg,
-																									 transparent,
-																									 transparent 33%,
-																									 rgba(0,0,0,.1) 33%,
-																									 rgba(0,0,0,.1) 66%,
-																									 transparent 66%),
-	-webkit-linear-gradient( top,
-																											rgba(255, 255, 255, .25),
-																											rgba(0,0,0,.2)),
-	/* -webkit-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
-	-webkit-linear-gradient( right, #1F3C88, #5893D4,#CEDDEF);
-}
-
-.php::-webkit-progress-value 
-{
-	/* Gradient background with Stripes */
-	background-image:
-	-webkit-linear-gradient( 135deg,
-																									 transparent,
-																									 transparent 33%,
-																									 rgba(0,0,0,.1) 33%,
-																									 rgba(0,0,0,.1) 66%,
-																									 transparent 66%),
-	-webkit-linear-gradient( top,
-																											rgba(255, 255, 255, .25),
-																											rgba(0,0,0,.2)),
-	/* -webkit-linear-gradient( right, #60EFB8, #FFD933, #F62A66); */
-	-webkit-linear-gradient( right, #5893D4, #CEDDEF);
-}
-
 /* Similarly, for Mozillaa. */
 
 .html5::-webkit-progress-value,
@@ -657,7 +624,8 @@ p[data-value]:after {
 .javascript::-webkit-progress-value,
 .jquery::-webkit-progress-value,
 .node-js::-webkit-progress-value,
-.sql::-webkit-progress-value    
+.php::-webkit-progress-value,
+.sql::-webkit-progress-value   
 {
 	/* Gradient background with Stripes */
 	background-image:

@@ -16,14 +16,14 @@ function Skills() {
 					
 						<h4>FRONT-END</h4>
 						
-						<p id="pbar-title" style={{width:"90%"}} data-value="90">HTML5</p>
-						<progress max="100" value="90" className="html5"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">HTML5</p>
+						<progress max="100" value="100" className="html5"></progress>
 		
-						<p id="pbar-title" style={{width:"85%"}} data-value="85">CSS3</p>
-						<progress max="100" value="85" className="css3"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">CSS3</p>
+						<progress max="100" value="100" className="css3"></progress>
 
-            <p id="pbar-title" style={{width:"50%"}} data-value="50">ReactJS</p>
-						<progress max="100" value="50" className="reactjs"></progress>
+            <p id="pbar-title" style={{width:"100%"}} data-value="">ReactJS</p>
+						<progress max="100" value="100" className="reactjs"></progress>
 	
 					</div> 
 					
@@ -31,47 +31,54 @@ function Skills() {
 						
 						<h4>BACK-END</h4>
 
-						<p id="pbar-title" style={{width:"90%"}} data-value="90">C</p>
-						<progress max="100" value="90" className="c"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">C</p>
+						<progress max="100" value="100" className="c"></progress>
 						
-						<p id="pbar-title" style={{width:"90%"}} data-value="90">Java</p>
-						<progress max="100" value="90" className="java"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">Java</p>
+						<progress max="100" value="100" className="java"></progress>
 
-						<p id="pbar-title" style={{width:"90%"}} data-value="90">Delphi</p>
-						<progress max="100" value="90" className="delphi"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">Delphi</p>
+						<progress max="100" value="100" className="delphi"></progress>
 
-						<p id="pbar-title" style={{width:"90%"}} data-value="90">SQL</p>
-						<progress max="100" value="90" className="sql"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">SQL</p>
+						<progress max="100" value="100" className="sql"></progress>
 
-						<p id="pbar-title" style={{width:"85%"}} data-value="85">Javascript</p>
-						<progress max="100" value="85" className="javascript"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">Javascript</p>
+						<progress max="100" value="100" className="javascript"></progress>
 
-						<p id="pbar-title" style={{width:"85%"}} data-value="85">JQuery</p>
-						<progress max="100" value="85" className="jquery"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">JQuery</p>
+						<progress max="100" value="100" className="jquery"></progress>
 
-						<p id="pbar-title" style={{width:"70%"}} data-value="70">Node.js</p>
-						<progress max="100" value="70" className="node-js"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">Node.js</p>
+						<progress max="100" value="100" className="node-js"></progress>
 
-						<p id="pbar-title" style={{width:"35%"}} data-value="35">PHP</p>
-						<progress max="100" value="35" className="php"></progress>
+						<p id="pbar-title" style={{width:"100%"}} data-value="">PHP</p>
+						<progress max="100" value="100" className="php"></progress>
 		
 					</div>
 
 					<div className="col-lg-4">
 						
-						<h4>OTHERS</h4>
+						<h4>AND MORE</h4>
 
 						<ul>
+							<li>C#</li>
+							<li>JSON</li>
+							<li>Restful APIs</li>
+							<li>Sequelize</li>
+							<li>MongoDB</li>
+							<li>PostgreSQL</li>
+							<li>Bootstrap</li>
+							<li>MaterialUI</li>
 							<li>Git and GitHub</li>
 							<li>TortoiseSVN</li>
-							<li>Bootstrap</li>
+							<li>Heroku</li>
 							<li>Adobe PhoneGap</li>
 							<li>Delphi 5/7/2007</li>
 							<li>Visual Studio 2013</li>
 							<li>Eclipse IDE</li>
 							<li>Android Studio</li>
 							<li>SQL Server 2016</li>
-							<li>PostgreSQL</li>
 							<li>SoapUI</li>
 							<li>MS Project 2010</li>
 							<li>dotProject.net</li>
