@@ -5,7 +5,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftpreclassdrill.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftpreclassdrill.github.io",
     "image":       "./assets/images/work001.png",
-    "description": "On this webpage, you can select any button and understand how a computer program works."
+    "description": "On this webpage, you can select any button and understand how a computer program works.",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftpasswordgenerator.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftpasswordgenerator.github.io",
     "image":       "./assets/images/work002.png",
-    "description": "On this webpage, you can generate a random password based on user-selected criteria."
+    "description": "On this webpage, you can generate a random password based on user-selected criteria.",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftdayplanner.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftdayplanner.github.io",
     "image":       "./assets/images/work003.png",
-    "description": "On this webpage, you will be able to create, customize, and delete each one of your daily events."
+    "description": "On this webpage, you will be able to create, customize, and delete each one of your daily events.",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftcodequiz.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftcodequiz.github.io",
     "image":       "./assets/images/work004.png",
-    "description": "On this webpage, you will be challenged to answer all the questions in 1 minute."
+    "description": "On this webpage, you will be challenged to answer all the questions in 1 minute.",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftgroupprojectgeotrivia.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftgroupprojectgeotrivia.github.io",
     "image":       "./assets/images/work005.png",
-    "description": "On this webpage, you will be challenged to answer geography questions settle by API requests."
+    "description": "On this webpage, you will be challenged to answer geography questions settle by API requests.",
+    "technology":  "HTML5, CSS3, Javascript, Jquery, Open Trivia DB API"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "href_view":   "https://rodrigomgimenes.github.io/uoftweatherdashboard.github.io/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftweatherdashboard.github.io",
     "image":       "./assets/images/work006.png",
-    "description": "On this webpage, you can search for a specific location or click on the city buttons to receive the respective forecast."
+    "description": "On this webpage, you can search for a specific location or click on the city buttons to receive the respective forecast.",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery, Open Weather Map API"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "href_view":   "https://intense-oasis-22538.herokuapp.com/",
     "href_code":   "https://github.com/rodrigomgimenes/uofteataburger.github.io",
     "image":       "./assets/images/work007.png",
-    "description": "On this webpage, you can write any burger you would like to have, and after finished eating you can delete it from your database."
+    "description": "On this webpage, you can write any burger you would like to have, and after finished eating you can delete it from your database.",
+    "technology":  "HTML5, CSS3, Javascript, Jquery, SQL, Heroku"
   },
   {
     "id": 8,
@@ -61,6 +68,7 @@
     "href_view":   "https://stark-woodland-75959.herokuapp.com/",
     "href_code":   "https://github.com/rodrigomgimenes/uoftgroupprojectopensound.github.io",
     "image":       "./assets/images/work008.png",
-    "description": "On this webpage, you can build your personalized music library and listen to your favorite songs (as long as you have a <i>Spotify Premium Account</i>)."
+    "description": "On this webpage, you can build your personalized music library and listen to your favorite songs (as long as you have a Spotify Premium Account).",
+    "technology":  "HTML5, CSS3, Bootstrap, Javascript, Jquery, SQL, Heroku, Spotify API"
   }
 ]

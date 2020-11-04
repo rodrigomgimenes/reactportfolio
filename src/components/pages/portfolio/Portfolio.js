@@ -28,6 +28,7 @@ class Portfolio extends Component {
               href_code={proj.href_code}
               image={proj.image}
               description={proj.description}
+              technology={proj.technology}
             />
           ))}
         </div> 

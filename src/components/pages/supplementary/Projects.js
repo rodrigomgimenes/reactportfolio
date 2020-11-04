@@ -9,6 +9,7 @@ function Projects(props) {
         </a>
         <h3>{props.headtitle}</h3>
         <p id={`portfolio${props.id}`}>{props.description}</p>
+        <p id={`tech${props.id}`}><i>{props.technology}</i></p>
         <a href={props.href_code} target="_blank" rel="noopener noreferrer">
           <i className="md-size-icon fas fa-file-code"></i>
         </a>
